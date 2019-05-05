@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B4F0F47227EB3B7007037E4 /* QuatToEulerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4F0F46227EB3B7007037E4 /* QuatToEulerController.swift */; };
+		9B4F0F49227EB929007037E4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4F0F48227EB929007037E4 /* MainViewController.swift */; };
 		9B7A6838227E8B7900AF739D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A6837227E8B7900AF739D /* AppDelegate.swift */; };
-		9B7A683A227E8B7900AF739D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A6839227E8B7900AF739D /* ViewController.swift */; };
 		9B7A683C227E8B7A00AF739D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7A683B227E8B7A00AF739D /* Assets.xcassets */; };
 		9B7A683F227E8B7A00AF739D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7A683D227E8B7A00AF739D /* Main.storyboard */; };
+		9B9ACBC8227EAD7300E2C302 /* EulerToQuatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9ACBC7227EAD7300E2C302 /* EulerToQuatController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B4F0F46227EB3B7007037E4 /* QuatToEulerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuatToEulerController.swift; sourceTree = "<group>"; };
+		9B4F0F48227EB929007037E4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9B7A6834227E8B7900AF739D /* calculatorQuatEuler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculatorQuatEuler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7A6837227E8B7900AF739D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B7A6839227E8B7900AF739D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B7A683B227E8B7A00AF739D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B7A683E227E8B7A00AF739D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B7A6840227E8B7A00AF739D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B7A6841227E8B7A00AF739D /* calculatorQuatEuler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = calculatorQuatEuler.entitlements; sourceTree = "<group>"; };
+		9B9ACBC7227EAD7300E2C302 /* EulerToQuatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerToQuatController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +57,12 @@
 		9B7A6836227E8B7900AF739D /* calculatorQuatEuler */ = {
 			isa = PBXGroup;
 			children = (
+				9B4F0F48227EB929007037E4 /* MainViewController.swift */,
+				9B9ACBC7227EAD7300E2C302 /* EulerToQuatController.swift */,
 				9B7A6837227E8B7900AF739D /* AppDelegate.swift */,
-				9B7A6839227E8B7900AF739D /* ViewController.swift */,
 				9B7A683B227E8B7A00AF739D /* Assets.xcassets */,
 				9B7A683D227E8B7A00AF739D /* Main.storyboard */,
+				9B4F0F46227EB3B7007037E4 /* QuatToEulerController.swift */,
 				9B7A6840227E8B7A00AF739D /* Info.plist */,
 				9B7A6841227E8B7A00AF739D /* calculatorQuatEuler.entitlements */,
 			);
@@ -133,8 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B7A683A227E8B7900AF739D /* ViewController.swift in Sources */,
+				9B4F0F47227EB3B7007037E4 /* QuatToEulerController.swift in Sources */,
 				9B7A6838227E8B7900AF739D /* AppDelegate.swift in Sources */,
+				9B9ACBC8227EAD7300E2C302 /* EulerToQuatController.swift in Sources */,
+				9B4F0F49227EB929007037E4 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
